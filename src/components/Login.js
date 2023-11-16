@@ -64,6 +64,13 @@ const Login = () => {
         <div>
           <GoogleButton className="g-btn" type="dark" onClick={handleGoogleSignIn}/>
         </div>
+        <Link to="/phone-signup">
+          <div className="d-grid gap-2 mt-3">
+            <Button variant="success" type="Submit">
+              Sign in with Phone
+            </Button>
+          </div>
+        </Link>
       </div>
       <div className="p-4 box mt-3 text-center">
         Don't have an account? <Link to="/signup">Sign up</Link>

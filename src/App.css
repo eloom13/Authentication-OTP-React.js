@@ -24,3 +24,14 @@ body {
   width: 40px !important;
   height: 38px !important;
 }
+
+.button-right
+{
+  display: flex;
+  justify-content: flex-end;
+}
+
+#recaptha-container
+{
+  margin: 20px;
+}
